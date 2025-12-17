@@ -1,0 +1,74 @@
+
+body{
+
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: url("High-resolution\ abst.png");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+
+}    
+#calcontainer{
+    font-family:Arial, Helvetica, sans-serif;
+    font: 3rem;
+    background-color: black;
+    border-radius:15px;
+    max-width: 500px;
+    overflow:hidden;
+
+
+}
+#display{
+    width:500px;
+    height:130px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:4.5rem;
+    border:none;
+    text-align:left;
+    background-color: rgb(52, 51, 51);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+
+button{
+
+    height:80px;
+    width:80px;
+    border:none;
+    border-radius:50%;
+    color:white;
+    background-color:rgb(128, 126, 126);
+    cursor: pointer;
+    font-size:2.8rem;
+    font-weight: bold;
+    
+}
+
+.opbtn{
+    background-color:#FF9500;
+}
+
+
+#delete{
+    background-color:#FF9500;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+#calElement{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5px;
+    padding:25px;
+    
+}
+
+

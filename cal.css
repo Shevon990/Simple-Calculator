@@ -51,9 +51,16 @@ button{
     font-weight: bold;
     
 }
+button:hover{
+    background-color:rgb(150, 147, 147);
+}
 
 .opbtn{
     background-color:#FF9500;
+}
+
+.opbtn:hover{
+    background-color:#e99623;
 }
 
 
@@ -62,6 +69,11 @@ button{
     font-size:1.5rem;
     font-weight: bold;
 }
+
+#delete:hover{
+    background-color:#ffb041;
+}
+
 
 #calElement{
     display:grid;
